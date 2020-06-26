@@ -16,7 +16,6 @@
         String name = request.getParameter("name").trim();
         String password = request.getParameter("password").trim();
         String rePassword = request.getParameter("rePassword").trim();
-
         // 对两次输入的密码进行对比
         if (!password.equals(rePassword)) {
             out.print("<div> Hi:"+name+" 您两次输入的密码不一致</div> <br>" +
@@ -48,7 +47,7 @@
                 System.out.println(it);
                 if (it.equals(name)) {
                     out.print("<div>用户已经存在</div>" +
-                            "请点击<a href=\"register.jsp\">重新注册</a>");
+                            "请点击<a href=\"login.jsp\">去登录</a>");
                     return;
                 }
             }

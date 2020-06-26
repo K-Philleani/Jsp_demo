@@ -30,7 +30,7 @@
   <body>
       <div class="home">
         <div class="link">
-          <a href="">用户登录</a>
+          <a href="login.jsp">用户登录</a>
           <a href="register.jsp">注册用户</a>
         </div>
       </div>
